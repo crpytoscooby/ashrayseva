@@ -1,0 +1,196 @@
+ html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Open Sans',sans-serif;
+}
+
+#title{
+    padding:40px 0px 60px 0px;
+    text-align:center;
+}
+
+#title h1 {
+    padding-bottom: 25px;
+    font-weight: 700;
+}
+
+#title p{
+    font-size:20px;
+}
+
+#title img{
+    max-width:50%;
+    max-height:450px;
+    margin-left:25%;
+    margin-right:25%;
+}
+#our_services {
+    background: url(https://i2.pickpik.com/photos/23/976/971/dependent-dementia-woman-old-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 0 110px;
+}
+
+#our_services .header{
+    text-align:center;
+    color:white;
+    padding-bottom:30px;
+}
+
+p{
+    margin-top:0;
+    margin-bottom:1rem;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.row {
+    display: webkit-box;
+    display: ms-flexbox;
+    display: flex;
+    ms-flex-wrap: wrap;
+    margin-right:-15px;
+    margin-left:-15px;
+}
+
+img{
+    vertical-align:middle;
+    border-style:none;
+}
+
+#our_services .card .card-body{
+    text-align:center;
+}
+
+#our_services .card .card-body h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container{
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.TopHeader .social-icon img {
+    height: 30px;
+}
+
+.carousel-item.active{
+    display:block;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    -webkit-perspective:1000px;
+    perspective:1000px;
+    text-align:center;
+}
+
+#gallery {
+    padding-top:30px;
+    text-align:center;
+    padding-bottom:30px;
+}
+
+#gallery h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 700;
+}
+    
+#gallery button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#review {
+    background-color: #abede2;
+    padding: 60px 0 110px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#review h1{
+    padding-bottom:60px; 
+    font-weight:700;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #333;
+}
+
+footer h4{
+    font-weight:700;
+}
+
+footer .container{
+    padding-top:25px;
+    color:#7c898b;
+    text-decoration:none;
+}
+
+footer button {
+    display: block;
+    width: 100%;
+    background-color: #a516d7;
+    color: #fff;
+    padding: 7px 15px;
+}
+
+#contact{
+    padding-left:20px;
+}
+
+.footerBox{
+    padding-right:15px;
+}
+
+#below_footer {
+    padding-top:15px;
+    background-color: #a516d7;
+    color:#fff;
+}
+
+#below_footer a {
+    color: #fff;
+}
+img {
+    position: relative;
+}

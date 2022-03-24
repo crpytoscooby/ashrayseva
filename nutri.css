@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	background-color:#FFF59D;
 	font-family: 'Montserrat', sans-serif;
@@ -80,4 +81,88 @@ nav.black {
 	#title h1{
 		font-size: 22px;
 	}
+=======
+body{
+	background-color:#FFF59D;
+	font-family: 'Montserrat', sans-serif;
+}
+
+section{
+	margin-top: 100px;
+}
+
+a.black{
+	color: white;
+}
+
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 600;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color:#795548;
+
+}
+
+#mainNavbar .navbar-brand {
+    color: #795548;
+    font-size: 1.5rem;
+}
+
+.bub img{
+	width: 20%;
+	height: 20%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+#title{
+	margin-top: 100px;
+
+}
+
+#title h1{
+	color: #795548;
+	font-weight: 600;
+}
+
+nav.black { 
+	color: white;
+    background:#F9A825;
+    transition: background 500ms;
+    font-weight: 300;
+}
+
+
+
+.blob h1{
+	font-weight: 600;
+	color: #795548;
+}
+
+.blob p{
+	line-height: 2;
+	font-weight: 300;
+	color: #795548;
+}
+
+
+
+@media (max-width: 768px) {
+    #title{
+    	margin-top: 270px;
+    	font-size: 30px;
+    	
+}
+	#title h1{
+		font-size: 22px;
+	}
+>>>>>>> e43a46a735b06f86d8267a03ba44d80a5940c302
 }

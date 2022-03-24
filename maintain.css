@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: #000000;
     font-family: 'Montserrat', sans-serif;
@@ -72,4 +73,80 @@ nav.black {
     #title h1{
         font-size: 22px;
     }
+=======
+body{
+    background-color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section{
+    margin-top: 100px;
+}
+
+
+.bub img{
+    width: 20%;
+    height: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#title{
+    margin-top: 100px;
+    
+}
+
+
+#title h1{
+    color: #00FFFF;
+    font-weight: 600;
+}
+    
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 600;    
+}
+
+nav.black {
+    color: white;
+   background: #616161;
+    transition: background 500ms;
+    font-weight: 00;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color:#00FFFF;
+}
+
+#mainNavbar .navbar-brand {
+    color:#00FFFF;
+    font-size: 1.5rem;
+}
+
+.blob p{
+    line-height: 2;
+    color: white;
+    font-weight: 300;
+}
+
+.blob h1{
+    color: #00FFFF;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    #title{
+        margin-top: 270px;
+        font-size: 30px;
+        
+}
+    #title h1{
+        font-size: 22px;
+    }
+>>>>>>> e43a46a735b06f86d8267a03ba44d80a5940c302
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	background-color: black;
 	font-family: 'Montserrat', sans-serif;
@@ -419,3 +420,426 @@ p{
 }
 
 
+=======
+body{
+	background-color: black;
+	font-family: 'Montserrat', sans-serif;
+	
+	overflow-x: hidden;
+}
+
+p{
+	font-size: 20px;
+	margin-top: 50px;
+}
+nav{
+	background-color: rgba(0,0,0,0.7);
+}
+
+#mainNavbar{
+   font-weight: 600;    
+   height: 100px;
+}
+
+#mainNavbar img{
+	width: 30%;
+	height: 30%;
+}
+
+#mainNavbar .nav-link {
+	font-size:1.3rem;
+    color: white;
+  /*  margin-left: 20px;
+    margin-right: 20px;*/
+}
+
+#mainNavbar .nav-link:hover {
+    color:#3498DB;
+
+}
+
+#mainNavbar .navbar-brand {
+    color: #3498DB;
+    font-size: 2rem;
+    width: 350px;
+}
+
+/*newnavbar*/
+.navbar{
+  position: fixed;
+  background-color: transparent;
+  width: 100%;
+  padding: 30px 0;
+  top: 0;
+  z-index: 999;
+  transition: .3s linear;
+}
+.navbar-brand {
+  padding-left: 10px
+}
+
+.inner-width{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 40px;
+}
+
+.navbar .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 44px;
+  height: 32px;
+  background-image: url(SangamTechLogo.png);
+  background-size: contain;
+}
+
+.menu-toggler{
+  background: none;
+  width: 55px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  z-index: 999;
+  display: none;
+  padding-right: 25px;
+}
+
+.menu-toggler span{
+  display: block;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  position: relative;
+  transition: .2s linear;
+}
+.navbar-menu {
+	margin-left: 0px;
+}
+.navbar-menu a{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 30px;
+  transition: .2s linear;
+  padding-right: 10px;
+}
+
+.navbar-menu a:hover{
+  color: #48dbfb !important;
+}
+
+.sticky{
+  background-color: #fff;
+  padding: 18px 0;
+}
+
+.sticky .logo{
+  background-image: url(../images/black-logo.png);
+}
+
+.sticky .navbar-menu a{
+  color: #111;
+}
+
+.sticky .menu-toggler span{
+  background-color: #111;
+}
+/*
+@media (max-width: 990px){
+
+	#mainNavbar .navbar-brand{
+		width:175px;
+	}
+
+}
+
+@media(max-width: 790px){
+	#mainNavbar .navbar-brand{
+		width:80px;
+	}
+
+}
+
+@media(max-width: 670px){
+	#mainNavbar .navbar-brand{
+		font-size: 1rem;
+		width:30px;
+	}
+
+}*/
+
+nav.black {
+	background-color: #333;
+	color: white;
+    transition: background 500ms;
+    font-weight: 300;
+}
+.new-nav{
+
+}
+
+
+
+#bleh{
+	background-image: url("https://images.unsplash.com/photo-1589878607495-6f7c03973ca0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+	background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 0 120px;
+    height: 650px;
+    width: 100%;
+    display: block;
+    
+}
+
+#Intro{
+	margin-top: 80px;
+}
+
+@media (max-width: 1200px) {
+    #Intro h1{
+    	font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 990px){
+    #Intro p{
+    	font-size: 1.4rem;
+    }
+    #change{
+    	justify-content: center;
+    	text-align: center;
+    }
+}
+
+.blu h1{
+	font-weight: 600;
+	font-size: 3rem;
+	text-align: right;
+}
+
+.blu img{
+	width: 30%;
+	height: 30%;
+}
+
+.ble{
+	text-align: left;
+	display: flex;
+	flex-direction: column-reverse;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+.ble p{
+	font-size: 1.7rem;
+	font-weight: 400;
+	line-height: 2;
+	font-family: 'Abel', sans-serif;
+
+}
+
+#bleh .row,
+#mid .row,
+#about .row{
+	margin-top: 20px;
+	margin-bottom:80px;
+}
+
+#mid{
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left:20px;
+}
+
+#mid p{
+	font-weight: 600;
+	color: white;
+	font-size: 1.2rem;
+	line-height: 2;
+	word-spacing: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 480px){
+	#mid p{
+		font-size: 1rem;
+	}
+	#mid span{
+		font-size: 2rem;
+	}
+}	
+
+#about img{
+	height: 90%;
+	width: 90%;
+}
+
+#about p{
+	line-height: 2.5;
+
+}
+
+#about div{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+@media(max-width:200px){
+	#about img{
+		height: 200px;
+		width: 200px;
+	}
+}
+
+#OurServices{
+	background-color: #333;
+	margin-bottom: 50px;
+	border-radius: 25px;
+	height: 70px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 15px;
+}
+
+#OurServices h1{
+	font-weight: 600;
+	margin-left: 400px;
+	color: #3498DB;
+}
+
+@media (max-width: 990px){
+
+	#OurServices h1{
+		font-size: 1.6rem;
+		margin-left: 250px;
+	}
+
+}
+
+@media(max-width: 790px){
+	#OurServices h1{
+		font-size: 1.6rem;
+		margin-left: 150px;
+	}
+}
+
+@media(max-width: 670px){
+	#OurServices h1{
+		font-size: 1.4rem;
+		margin-left: 40px;
+	}
+}
+
+
+footer {
+    background-color: #333;
+}
+
+footer h4{
+	color: #3498DB;
+    font-weight:600;
+}
+
+footer .container{
+	height: 440px;
+    padding-top:25px;
+    color:#7c898b;
+    text-decoration:none;
+}
+
+footer button {
+    display: block;
+    width: 100%;
+    background-color: #a516d7;
+    color: #fff;
+    padding: 7px 15px;
+}
+
+#contact{
+    padding-left:20px;
+}
+
+.footerBox{
+    padding-right:15px;
+}
+
+#below_footer {
+    background-color: #a516d7;
+    color:#fff;
+}
+
+#below_footer a {
+    color: #fff;
+}
+
+#below_footer p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+img {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+img:hover {
+    position: relative;
+    border-radius: 20px;
+    max-width: 100%;
+    max-height:100%;
+    transition:0.75s;
+}
+hr {
+	background-color: white;
+	width: 1300px;
+	height: 0.3px;
+	margin-bottom: 80px;
+	margin-top: 50px;
+}
+.logo a{
+	
+ 	color: #fff;
+  	font-size: 21px;
+  	margin: 0 10px;
+  	transition: .2s linear;
+}
+.logo a:hover {
+	
+ 	color: #3498DB;
+  	font-size: 24px;
+  	margin: 0 10px;
+  	transition: .2s linear;
+}
+ul{
+	list-style-type: none;
+}
+.card{
+	border-radius: 20px;
+	background-color:#68f7f7 ;
+}
+
+.card:hover{
+	background-color: #7afa87;
+}
+
+h4,h1 {
+	font-family: 'Fondamento', cursive;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+}
+#below_footer{
+	background-color:#3498DB; 
+}
+
+
+>>>>>>> e43a46a735b06f86d8267a03ba44d80a5940c302
